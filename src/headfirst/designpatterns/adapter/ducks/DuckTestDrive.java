@@ -1,7 +1,11 @@
 package headfirst.designpatterns.adapter.ducks;
 
+/**
+ * Class for testing adapters in main method
+ */
 public class DuckTestDrive {
-	public static void main(String[] args) {
+	
+    public static void main(String[] args) {
 		MallardDuck duck = new MallardDuck();
 
 		WildTurkey turkey = new WildTurkey();
